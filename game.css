@@ -1,0 +1,56 @@
+.header{
+	background-color: #000015;
+}
+.navbar{
+	display: flex;
+	background-color:  #000015;
+	width: 100%;
+	font-size: 18px !important;
+}
+
+.navbar a{
+	color: orange;
+	padding: 20px 75px;
+}
+
+.navbar a:hover{
+	background-color: #ddd;
+    color: black;
+}
+
+@media screen and (max-width: 700px){
+	.navbar{
+		flex-direction: column;
+	}
+}
+
+.hero{
+	display: flex;
+	height: 650px;
+    background-image: url("game2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+     background-color: 000015;
+}
+
+
+.hero-title{
+	text-transform: uppercase;
+	text-align: center;
+	color: orange;
+	font-weight: 800;
+	font-size: 80px;
+}
+
+.hero-text{
+	display: flex;
+	flex-wrap: wrap;
+	width: 70% !important;
+	margin: auto !important;
+}
+
+.hero-text p{
+	color: white;
+	width: 50%;
+}
